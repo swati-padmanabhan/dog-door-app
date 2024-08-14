@@ -15,14 +15,14 @@
         public void open()
         {
             isOpen = true;
-            Console.WriteLine("The dog door opens...");
+            Console.WriteLine("\nThe dog door opens...");
         }
 
         //it sets the isOpen to false to indicate that the door has been closed
         public void close()
         {
             isOpen = false;
-            Console.WriteLine("The dog door closes...");
+            Console.WriteLine("\nThe dog door closes...");
         }
     }
 }
